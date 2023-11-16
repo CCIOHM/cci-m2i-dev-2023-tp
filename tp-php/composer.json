@@ -1,0 +1,7 @@
+{
+    "name": "cci/cci-m2i-exam",
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "*"
+    }
+}

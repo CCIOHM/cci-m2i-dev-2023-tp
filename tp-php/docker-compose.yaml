@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+    cci-tp-php:
+        build: .
+        ports:
+            - "8080:80"
+        restart: unless-stopped
+        volumes:
+            - .:/var/www/html/
+            - ./storage:/var/www/html/storage
