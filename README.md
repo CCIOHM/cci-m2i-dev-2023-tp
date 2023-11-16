@@ -11,6 +11,7 @@ Vous avez une application web simple en PHP (8.1) ou Node.js (20.9). Cette appli
 
 ## Applications:
 - Docker compose non obligatoire.
+   - Commande pour les build/run: `docker compose up --build -d`
 - Info -> Rappel :
    - PHP 8.1     -> composer update
    - NodeJS 20.9 -> npm install
