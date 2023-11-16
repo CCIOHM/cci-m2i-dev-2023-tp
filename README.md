@@ -78,17 +78,18 @@ Vous avez une application web simple en PHP (8.1) ou Node.js (20.9). Cette appli
 
 ## Contraintes particulières
 - L'usage d'internet est autorisé !
-- ChatGPT, toutes IA/AI ou assistant intelligent ne sont pas autorisé. Leur usage entrainera un zéro et une remarque négative dans votre dossier.
+- ChatGPT, toutes IA/AI ou assistant intelligent ne sont pas autorisés. Leur usage entrainera un zéro et une remarque négative dans votre dossier.
 - Aucun framework, plugin ou module tout fait n'est autorisé.
 
 ## Recommandations
 - L'usage du SDK officiel de AWS est recommandé. Chaque langage a son propre SDK officiel et les commandes sont très similaires.
-- Vous êtes libre d'utiliser guide des exercices pour vous inspirer.
-- Pour la création des Policies de l'utilisateur, il est recommandé de d'abord donner un accès à toutes les actions et resources du S3 puis après avoir modifier et l'application avec S3, définir les actions et resources strictes et définitives, sinon vous risquez de vous ralentir/bloquer durant l'exercice.
+- Vous êtes libre d'utiliser les guides des exercices pour vous inspirer.
+- Pour la création des Policies de l'utilisateur (pas de S3 !), il est recommandé de d'abord donner un accès à toutes les actions et resources du S3 privé. Puis après avoir intégré S3 à application, il faudra définir les actions et resources strictes et définitives, sinon vous risquez de vous ralentir/bloquer durant l'exercice.
 
 ## Livrables
 - Code source de l'application modifiée. Le code source ne doit pas inclure les dépendances (vendor ou node_modules).
 - Documentation avec captures d'écrans (nom de services, policies de sécurité/accès et configurations) expliquant la configuration AWS mise en place. Les captures d'écran devront montrer l'intégralité de votre écran !
+- Les méthodes de livraisons sont sur Teams.
 
 ## Critères d'Évaluation
 - Fonctionnement correct de l'upload vers S3 et de l'affichage via CloudFront.
